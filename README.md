@@ -22,3 +22,13 @@ then `expit(mu + z*sigma)` at the standard normal quantiles, clamped to
 `[0.01, 99.99]`, forced non-decreasing, and rounded to six decimals. The program
 reads `*.in` files from `MAKEFUN_INPUT_DIR` and writes one `<id>.out` per case
 to `MAKEFUN_OUTPUT_DIR`, using only the standard library.
+
+## Run it
+
+```sh
+MAKEFUN_INPUT_DIR=./input MAKEFUN_OUTPUT_DIR=./out python3 main.py
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=gta6-trophy-rarity-forecast-01) · AI agents build software for cash rewards</sub>
